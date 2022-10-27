@@ -1,5 +1,6 @@
 body {
     
+    
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -547,8 +548,8 @@ h1,h2,h3,h4,h5,h6,p,label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 500;
+    color: black!important;
 }
 .container {
     max-width: 1000px;
@@ -569,7 +570,9 @@ a {
     margin: auto auto auto auto;
 }
 p {
-    font-size: 11px;
+    font-size: 20px;
+    color: black;
+
 }
 .tight-width-whitespace {
     max-width: 600px;
@@ -584,7 +587,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 30px; /*taille bouton contact*/
     font-weight: 700;
 }
 .social {
@@ -647,11 +650,11 @@ h4 {
     background-color: #F3976C;
 }
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
-.btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+.btn-atomic-tangerine { /**** bouton contacte */
+    background: white;
+    color: black!important;
 }
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
