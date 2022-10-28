@@ -575,7 +575,7 @@ p {
 
 }
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto auto auto auto;
 }
 .h1 {
@@ -590,10 +590,15 @@ p {
     font-size: 30px; /*taille bouton contact*/
     font-weight: 700;
 }
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
-}
+
+    .social {
+        max-width: 400px;
+        margin: auto auto auto auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -644,21 +649,24 @@ h4 {
     background-color: #FFFFFF;
 }
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: white; /*arriere plan ancien bleu*/
 }
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #555;
 }
 .tc-white {
     color: white!important;
+    font-size: 30px;
 }
 .btn-atomic-tangerine { /**** bouton contacte */
     background: white;
     color: black!important;
+    
 }
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: white!important;
+    color: black!important;
+    transform: scale(1.1);
 }
 .ltc-white {
     color: #FFFFFF!important;
