@@ -79,7 +79,7 @@ a:hover {
     right: 0;
 }
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+
     background-size: 280px 280px;
 }
 .b-parallax {
@@ -115,7 +115,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -575,7 +575,7 @@ p {
 
 }
 .tight-width-whitespace {
-    max-width: 700px;
+    max-width: 950px;
     margin: auto auto auto auto;
 }
 .h1 {
@@ -638,7 +638,7 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(22 20 16 / 70%);
     padding: 40px 40px 40px 40px;
 }
 .bold-link {
@@ -652,7 +652,7 @@ h4 {
     background-color: white; /*arriere plan ancien bleu*/
 }
 .bgc-atomic-tangerine {
-    background-color: #555;
+    background-color: #ab8544;
 }
 .tc-white {
     color: white!important;
@@ -664,7 +664,7 @@ h4 {
     
 }
 .btn-atomic-tangerine:hover {
-    background: white!important;
+    background: rgb(189, 171, 171)!important;
     color: black!important;
     transform: scale(1.1);
 }
@@ -899,4 +899,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.partenaire-1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
 }
