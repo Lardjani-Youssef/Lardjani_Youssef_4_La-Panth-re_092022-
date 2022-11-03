@@ -131,7 +131,9 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    /*color: rgba(255, 255, 255, 1);*/
+    color: rgb(37, 36, 36);
+    transform: scale(1.2);
 }
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -625,7 +627,7 @@ h4 {
     margin-top: 24px;
 }
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -652,7 +654,7 @@ h4 {
     background-color: white; /*arriere plan ancien bleu*/
 }
 .bgc-atomic-tangerine {
-    background-color: #ab8544;
+    background-color: white;
 }
 .tc-white {
     color: white!important;
@@ -683,7 +685,7 @@ h4 {
     color: #c27956!important;
 }
 .icon-dark-slate-blue {
-    color: #364577!important;
+    color: black!important;
     border-color: #364577!important;
 }
 .bg-dots-bg {
@@ -693,10 +695,10 @@ h4 {
     background-image: url("img/lines-h2-bg.png");
 }
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.png");
 }
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 @media (max-width: 1024px) {
     .bloc {
