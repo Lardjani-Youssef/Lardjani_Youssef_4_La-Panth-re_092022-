@@ -168,7 +168,7 @@ a:hover {
 }
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color:#db1c1c;
 }
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -411,7 +411,7 @@ button {
     font-size: 30px!important;
 }
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 100px!important;
 }
 .sm-shadow {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
@@ -595,6 +595,8 @@ p {
 
     .social {
         max-width: 400px;
+        padding-top: 17px;
+        padding-bottom: 17px;
         margin: auto auto auto auto;
         display: flex;
         flex-direction: row;
@@ -640,7 +642,7 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 .black-background {
-    background-color: rgb(22 20 16 / 70%);
+    background-color: rgb(175 120 10 / 70%);
     padding: 40px 40px 40px 40px;
 }
 .bold-link {
