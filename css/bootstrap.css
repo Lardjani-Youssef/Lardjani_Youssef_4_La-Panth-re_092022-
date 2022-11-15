@@ -1438,7 +1438,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    border-radius:50px;
+    
 }
 
 .img-rounded {
@@ -2329,7 +2329,12 @@ pre code {
         width: 41.66666667%
     }
     .col-sm-4 {
-        width: 100%
+        width: 33.33%
+        
+    }
+    .col-sm-44 {
+        width: 90%;
+       
     }
     .col-sm-3 {
         width: 25%
